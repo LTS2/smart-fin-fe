@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["@components", "./src/components"],
+          ["@pages", "./src/pages"],
+          ["@utils", "./src/utils"],
+          ["@assets", "./src/assets"]
+        ],
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    }
+  }
+}
