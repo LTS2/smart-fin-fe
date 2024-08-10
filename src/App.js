@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from '@pages/Home/Home';
 import LoginForm from '@pages/Login/LoginForm';
 import Vegetables from "@pages/Home/Vegetables";
-import Header from '@components/Header';
-import Footer from '@components/Footer';
+import Header from '@components/Header/Header';
+import Footer from '@components/Footer/Footer';
 
 function App() {
     return (
