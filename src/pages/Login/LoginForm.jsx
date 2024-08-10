@@ -9,7 +9,9 @@ const LoginForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8080/api/auth/', {email, password});
+            // const response = await axios.post('http://localhost:8080/api/auth/', {email, password});
+            // const response = await axios.post('http://192.168.0.55:8080/api/auth/', {email, password});
+            const response = await axios.post('/api/auth/', {email, password});
             const {token} = response.data;
             // JWT 토큰을 로컬 스토리지에 저장하거나, 다른 방식으로 관리
             localStorage.setItem('token', token);
