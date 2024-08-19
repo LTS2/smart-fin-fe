@@ -9,9 +9,12 @@ module.exports = {
             '@assets': path.resolve(__dirname, 'src/assets'),
         },
     },
-    // devServer: {
-    //     allowedHosts: [
-    //         '192.168.0.56',
-    //     ]
-    // }
+    devServer: {
+        allowedHosts: [
+            '192.168.0.56',
+            '192.168.219.*',
+            'test-home.com',
+            'test-ys.com',
+        ]
+    }
 };
