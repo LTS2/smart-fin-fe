@@ -2,11 +2,24 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "components/*": ["components/*"],
-      "pages/*": ["pages/*"],
-      "utils/*": ["utils/*"],
-      "assets/*": ["assets/*"]
+      "@components/*": [
+        "components/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@common/*": [
+        "common/*"
+      ]
     }
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

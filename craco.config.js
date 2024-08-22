@@ -7,6 +7,7 @@ module.exports = {
             '@pages': path.resolve(__dirname, 'src/pages'),
             '@utils': path.resolve(__dirname, 'src/utils'),
             '@assets': path.resolve(__dirname, 'src/assets'),
+            '@common': path.resolve(__dirname, 'src/common'),
         },
     },
     devServer: {

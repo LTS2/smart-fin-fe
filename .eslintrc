@@ -13,3 +13,15 @@
     }
   }
 }
+/*
+type A = string | number;
+var a : string | number = 'a';
+
+var a : string | number = 'a';
+
+var a : string | number = 'a';
+
+var a : string | number = 'a';
+var a : A = 'a';
+
+subscribers('토큰')*/
